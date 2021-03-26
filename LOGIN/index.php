@@ -13,7 +13,6 @@
 	<script src="script.js">
 	</script>
 	<nav>
-		<h2>Sign up</h2>
 		<section class="front-decor">
 			<h2 class="title">Welcome!</h2>
 			<div class="navigation">
