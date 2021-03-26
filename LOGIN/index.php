@@ -30,9 +30,9 @@
 			<div id="logindets">
 				<form action="signup.php" method = "post">
 					<label style="width:50%" for="user">Enter Username</label>
-					<input maxlength="8" minlength="2" name="username" type="user" id="user" placeholder="Eg: akash" required>
+					<input maxlength="8" minlength="2" name="username" type="user" id="user" autocomplete="off" placeholder="Eg: akash" required>
 					<label style="width:50%" for="password">Enter Password</label>
-					<input name="password" type="text" id="password" placeholder="8 Characters or more" required>
+					<input name="password" type="text" id="password" autocomplete="off" placeholder="8 Characters or more" required>
 					<button type="submit" id="submit" >GO</button>
 				</form>
       		</div>
