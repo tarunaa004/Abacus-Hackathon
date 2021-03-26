@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif, cursive;
+  box-align: boder-box;
+}
+
+body{
+  background: linear-gradient(to bottom, #33ccff 0%, #9999ff 100%);
+  padding:20px;
+}
+
+.title {
+  margin: 10px;
+  padding: 10px;
+  font-align: centre;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-align: center;
+  color: whitesmoke;
+  background: linear-gradient(to bottom, #ff6666 0%, #ff99cc 100%);
+  text-shadow: 2px 2px black;
+  
+}
+
+#blurb {
+  margin: 10px;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 130%;
+}
+.card-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.card-container .trivia-cards {
+  position: relative;
+  max-width: 300px;
+  height: 215px;
+  background-color: orange;
+  opacity:1;
+  margin: 50px;
+  padding: 2px 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in-out;
+}
+
+.card-container .trivia-cards:hover {
+  height: 400px;
+  opacity:0.5;
+}
+
+.card-container .trivia-cards .imgBx {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  top: -60px;
+  left: 20px;
+  z-index: 5;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-container .trivia-cards .imgBx img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.card-container .trivia-cards .content {
+  position: relative;
+  margin-top: -140px;
+  padding: 10px 15px;
+  text-align: center;
+  color: #111;
+  visibility: visible;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.card-container .trivia-cards:hover .content {
+  visibility: visible;
+  opacity: 1;
+  margin-top: -40px;
+  transition-delay: 0.3s;
+}
+
+.card-container .trivia-cards .content p {
+  font-size: 1.2em;
+}
+
+#message {
+  height: 40px;
+  width: 200px;
+}
+#foot {
+  background-color: white;
+  margin-top: 10px;
+  padding: 12px;
+  color: black;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.banner{
+  width:1000px;
+  height:300px;
+  background-image:url("https://cdn.glitch.com/27e2ac21-9570-4f01-b664-2df766f65d9f%2FWELCOME_PIONEERING_MINDS.png?v=1616753029063");
+  background-size:100%;
+  margin:auto;
+}

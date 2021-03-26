@@ -1,0 +1,96 @@
+* {
+  margin: 0%;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif, cursive;
+  box-align: border-box;
+}
+
+body{
+  //height: 100%;
+  margin: 0%;
+  background: linear-gradient(to bottom, #33ccff 0%, #9999ff 100%);
+}
+h2 {
+  font-size: 60px;
+  text-shadow: 60px solid black;
+  width:50%;
+}
+
+#blurb {
+  font-family: ;
+  margin: 50px;
+  font-family: Times New Roman;
+  border: solid black;
+  border-style: dotted;
+  padding:15px;
+  font-size: 20px;
+  line-height:25px;
+  
+}
+
+.title {
+  color: brown;
+
+  font-family: Georgia;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+  top: 0;
+  left: 16px;
+  font-size: 30px;
+  text-shadow: 60px solid black;
+  margin-bottom: 10px;
+}
+.navigation {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+li {
+  display: inline-block;
+  width: 170px;
+  padding: 5px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  transition: 1s;
+}
+a:hover {
+  color: black;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+.front-decor {
+  margin: 0%;
+  padding: 0%;
+}
+input {
+  width: 40%;
+  margin: 50px;
+  height: 20px;
+}
+#message{
+  width:400px;
+  height:100px;
+}
+#foot {
+  background-color: white;
+  margin-top: 10px;
+  padding: 12px;
+  color: black;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.banner{
+  width:1000px;
+  height:300px;
+  background-image:url("https://cdn.glitch.com/27e2ac21-9570-4f01-b664-2df766f65d9f%2FWELCOME_PIONEERING_MINDS_1.png?v=1616754720933");
+  background-size:100%;
+  margin:auto;
+}

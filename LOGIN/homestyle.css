@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding-top: 0rem;
+  padding-bottom: 1rem;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-image: url(https://cdn.glitch.com/27e2ac21-9570-4f01-b664-2df766f65d9f%2Fedu.jpg?v=1616739172742);
+}
+
+.front-decor {
+  margin: 0%;
+  padding: 0%;
+  color: snow;
+}
+
+.title {
+  color:white;
+  text-shadow: 2px 2px 5px black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-top: 14px;
+  margin-left: 14px;
+  position: absolute;
+  top: 0;
+  left: 16px;
+  font-size: 60px;
+  text-shadow: 60px solid black;
+}
+
+.navigation {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+#home-page {
+  right: 16px;
+  text-shadow: 2px 2px 5px steelblue;
+  
+  word-spacing: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: blueviolet;
+  
+}
+
+.link-colour {
+  color: rgb(206, 38, 66);
+}
+.link-colour:active {
+  color: blueviolet;
+}
+
+li {
+  display: inline-block;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  transition: 0.75s;
+}
+
+a:hover {
+  color: gold;
+  font-size: 30px;
+}
+
+input[type="user"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button {
+  background: cornsilk;
+  color: burlywood;
+  border-style: outset;
+  border-color: indigo;
+  text-align: center;
+}
+
+#submit {
+  text-align: center;
+  height: 50px;
+  width: 100px;
+  font: comic-sans;
+  font-size: bold 15px;
+  border-radius: 8px;
+  text-shadow: none;
+}
+
+#center {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  margin: 30px auto 0 auto;
+  //background-image: url("Ra9b195bd391fd7cc7dd0f94e924fbc24.jpg");
+}
+
+#logindets {
+  //display: inline-block;
+  //background-image: url("Ra9b195bd391fd7cc7dd0f94e924fbc24.jpg");
+  border-radius: 5px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  padding: 20px;
+  width: 50%;
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  display: inline-block;
+  width: 40%;
+}
+
+#foot {
+  background-color: white;
+  margin-top: 10px;
+  padding: 12px;
+  color: black;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+#cover {
+  z-index: -1;
+}
